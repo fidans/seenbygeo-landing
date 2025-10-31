@@ -1,13 +1,16 @@
+// app/layout.js
+import "./globals.css";
 export const metadata = {
-  title: "SeenByGeo — Your website, seen by AI.",
-  description:
-    "SeenByGeo helps your website become visible to AI models like ChatGPT, Perplexity, and Gemini.",
+  title: "SeenByGeo",
+  description: "Scan pages for AI-visibility heuristics.",
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className="antialiased">{children}</body>
+      <body className="min-h-screen antialiased bg-white text-gray-900">
+        {children}
+      </body>
     </html>
   );
 }
