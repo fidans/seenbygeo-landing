@@ -1,7 +1,7 @@
 export const metadata = {
   title: "SeenByGeo — Your website, seen by AI.",
   description:
-    "Make your website visible to AI models. GEO (Generative Engine Optimization) audits and tools.",
+    "SeenByGeo helps your website become visible to AI models like ChatGPT, Perplexity, and Gemini.",
 };
 
 export default function RootLayout({ children }) {
