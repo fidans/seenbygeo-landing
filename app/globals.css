@@ -1,5 +1,43 @@
+/* app/globals.css */
+
+/* Tailwind direktifleri */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-html, body { scroll-behavior: smooth; }
+/* Basit reset */
+html, body { height: 100%; }
+body { background:#fff; color:#111827; -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale; }
+
+/* Sistem font düzeltmeleri (apply kullanmıyoruz) */
+body {
+  background-color: #ffffff;   /* bg-white */
+  color: #111827;              /* text-gray-900 */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Yardımcı sınıflar (salt CSS, apply yok) */
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 72rem;     /* ~ max-w-6xl */
+  padding-left: 1.5rem; /* px-6 */
+  padding-right: 1.5rem;
+}
+
+/* Kart stili (Tailwind sınıflarını componentlerde kullanacağız) */
+/* İstersen burada da saf CSS bırakıyorum */
+.card {
+  border-radius: 1rem;         /* rounded-2xl */
+  border: 1px solid #e5e7eb;   /* border-gray-200 */
+  background-color: #ffffff;   /* bg-white */
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.05); /* shadow-sm */
+}
+.card-hover {
+  transition: transform 150ms ease, box-shadow 150ms ease;
+}
+.card-hover:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+}

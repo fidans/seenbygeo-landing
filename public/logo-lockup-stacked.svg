@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="700" viewBox="0 0 560 700">
+  <g transform="translate(152,32)" fill="none" stroke="#000" stroke-width="22" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M 30.72 128.0 C 55.04 66.56, 103.68 66.56, 128.0 66.56 C 152.32 66.56, 200.96 66.56, 225.28 128.0 C 200.96 189.44, 152.32 189.44, 128.0 189.44 C 103.68 189.44, 55.04 189.44, 30.72 128.0 Z"/>
+  </g>
+  <g transform="translate(152,32)" fill="none" stroke="#000" stroke-width="7.699999999999999" stroke-linecap="round">
+    <line x1="93.952" y1="128.0" x2="123.136" y2="100.352"/>
+    <line x1="123.136" y1="100.352" x2="162.048" y2="124.928"/>
+    <line x1="162.048" y1="124.928" x2="137.728" y2="152.576"/>
+    <line x1="137.728" y1="152.576" x2="103.68" y2="143.36"/>
+    <line x1="103.68" y1="143.36" x2="93.952" y2="128.0"/>
+    <line x1="123.136" y1="100.352" x2="137.728" y2="152.576"/>
+  </g>
+  <g transform="translate(152,32)" fill="#000">
+    <circle cx="93.952" cy="128.0" r="13.2"/>
+    <circle cx="123.136" cy="100.352" r="13.2"/>
+    <circle cx="162.048" cy="124.928" r="13.2"/>
+    <circle cx="137.728" cy="152.576" r="13.2"/>
+    <circle cx="103.68" cy="143.36" r="13.2"/>
+  </g>
+  <circle cx="280.0" cy="160.0" r="11.0" fill="#000"/>
+  <g fill="#000" text-anchor="middle" font-family="Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+    <text x="280.0" y="360" font-size="108" font-weight="700">Seenby</text>
+    <text x="280.0" y="460" font-size="96" font-weight="700" letter-spacing="2">GEO</text>
+  </g>
+</svg>
