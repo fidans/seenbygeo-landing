@@ -6,6 +6,11 @@ import Footer from "./components/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
+  metadataBase: new URL("https://www.seenbygeo.com"),
+  alternates: {
+    canonical: "/",
+  },
+
   title: "Seenby GEO",
   description: "Generative Engine Optimization",
   icons: {
