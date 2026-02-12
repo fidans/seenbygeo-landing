@@ -10,6 +10,8 @@ export async function GET() {
     "/company",
     "/news",
     "/playbooks",
+    "/research",
+    "/research/phase-1a-agent-preference-momentum",
   ];
 
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
